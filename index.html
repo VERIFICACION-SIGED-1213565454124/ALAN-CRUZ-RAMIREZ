@@ -1,107 +1,67 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consulta de documentos académicos electrónicos</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consulta de documentos académicos electrónicos</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Escudo_Nacional_de_M%C3%A9xico_%28heraldic%29.svg/1200px-Escudo_Nacional_de_M%C3%A9xico_%28heraldic%29.svg.png" alt="Escudo México">
+      <h1>GOBIERNO DE MÉXICO</h1>
+    </div>
+    <div>
+      <h1>SIGED</h1>
+    </div>
+  </header>
 
-    <header class="header">
-        <div class="header-container">
-            <img src="https://www.gob.mx/cms/uploads/image/file/20054/escudo-nacional.svg" alt="Gobierno de México" class="header-logo">
-            <div class="header-text">
-                GOBIERNO DE<br>
-                MÉXICO
-            </div>
-            <img src="https://www.gob.mx/cms/uploads/image/file/20055/logo_SEP.svg" alt="SEP" class="sep-logo">
-        </div>
-        <div class="siged-bar">
-            <div class="siged-container">
-                <div class="siged-text">SIGED</div>
-                <div class="menu-icon">
-                    <div class="bar"></div>
-                    <div class="bar"></div>
-                    <div class="bar"></div>
-                </div>
-            </div>
-        </div>
-    </header>
+  <!-- Sub-header -->
+  <div class="sub-header">
+    Consulta de documentos académicos electrónicos
+  </div>
 
-    <main class="main-content">
-        <div class="container">
-            <div class="document-section">
-                <h1 class="page-title">Consulta de documentos académicos electrónicos</h1>
-                <nav class="breadcrumb">
-                    Inicio > Consulta > Documentos académicos electrónicos > Título autenticado > Detalle
-                </nav>
+  <!-- Breadcrumb -->
+  <div class="breadcrumb">
+    Inicio > Consultas > Documentos académicos electrónicos > Título autenticado > Detalle
+  </div>
 
-                <h2 class="section-title">Consulta de títulos electrónicos autenticados por la DGAIR</h2>
-                <div class="content-box">
-                    <h3 class="subtitle">Título Autenticado</h3>
-                    <div class="details-grid">
-                        <div class="image-section">
-                            <div class="certificate-frame">
-                                <img src="https://via.placeholder.com/150x200.png?text=Título+Electrónico" alt="Imagen de Título Autenticado" class="certificate-image">
-                                <div class="details-tab">Detalles</div>
-                            </div>
-                        </div>
-                        <div class="info-section">
-                            <div class="detail-item">
-                                <span class="label">Nombre:</span>
-                                <span class="value">JOSUE ALAN CRUZ RAMIREZ</span>
-                            </div>
-                            <div class="detail-item">
-                                <span class="label">Nivel:</span>
-                                <span class="value">LICENCIATURA</span>
-                            </div>
-                            <div class="detail-item">
-                                <span class="label">Autoridad Emisora:</span>
-                                <span class="value">UNIVERSIDAD DEL VALLE DE MÉXICO</span>
-                            </div>
-                            <div class="detail-item">
-                                <span class="label">Carrera:</span>
-                                <span class="value">CONTADURÍA PÚBLICA Y FINANZAS</span>
-                            </div>
-                            <div class="detail-item">
-                                <span class="label">Folio Digital:</span>
-                                <span class="value">5e9f73f0-fada-454d-8ba5-3103239a5286</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <!-- Main container -->
+  <div class="container">
+    <h2>Consulta de títulos electrónicos autenticados por la DGAIR</h2>
+    <h3>Título Autenticado</h3>
 
-            <p class="disclaimer">
-                La información de los certificados que se muestran en este portal, son el resultado de la integración de información que envían las autoridades educativas de los estados y la Ciudad de México. En caso de que la información presentada no coincida con tus resultados académicos en el ciclo escolar o no esté disponible, por favor ponte en contacto con la autoridad de tu centro escolar.
-            </p>
-        </div>
-    </main>
+    <div class="details-box">
+      <div class="icon">📄</div>
+      <div class="info">
+        <p><strong>Nombre:</strong> Josue Alan Cruz Ramírez</p>
+        <p><strong>Nivel:</strong> Licenciatura</p>
+        <p><strong>Autoridad Emisora:</strong> Universidad del Valle de México</p>
+        <p><strong>Carrera:</strong> Contaduría Pública y Finanzas</p>
+        <p class="folio"><strong>Folio Digital:</strong> de01720b-3afa-45a6-93e6-5110d562d20d</p>
+      </div>
+    </div>
 
-    <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-section footer-sep-gob">
-                <img src="https://www.gob.mx/cms/uploads/image/file/20054/escudo-nacional.svg" alt="Gobierno de México" class="footer-logo">
-                <img src="https://www.gob.mx/cms/uploads/image/file/20055/logo_SEP.svg" alt="SEP" class="footer-sep-logo">
-            </div>
-            <div class="footer-section footer-links">
-                <div class="link-column">
-                    <h4>Enlaces</h4>
-                    <a href="#">Participa</a>
-                    <a href="#">Transparencia</a>
-                    <a href="#">Denuncia</a>
-                </div>
-                <div class="link-column">
-                    <h4>¿Qué es gob.mx?</h4>
-                    <a href="#">Portal de datos abiertos</a>
-                    <a href="#">Declaración de accesibilidad</a>
-                    <a href="#">Aviso de privacidad integral</a>
-                    <a href="#">Aviso de privacidad simplificado</a>
-                    <a href="#">Términos y Condiciones</a>
-                    <a href="#">Política de seguridad</a>
-                    <a href="#">Mapa de sitio</a>
-                </div>
-                <div class="link-column">
-                    <h4>Denuncia</h4>
-                    <a href="#">Denuncia contra servidores públicos</a>
+    <p class="nota">
+      La información de los certificados que se muestran en este portal, son el resultado de la integración de información que envían las autoridades educativas de los estados y la Ciudad de México. En caso de que la información presentada no coincida con tus resultados obtenidos en el ciclo escolar o no esté disponible, por favor ponte en contacto con la autoridad de tu centro escolar.
+    </p>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>GOBIERNO DE MÉXICO</p>
+    <p>
+      Enlaces | Enlaces Participa Publicaciones Oficiales Marco Jurídico <br>
+      Plataforma Nacional de Transparencia | Alerta | Denuncia
+    </p>
+    <p>
+      <a href="#">Aviso de privacidad integral</a> | 
+      <a href="#">Aviso de privacidad simplificado</a> | 
+      <a href="#">Términos y Condiciones</a> | 
+      <a href="#">Política de seguridad</a>
+    </p>
+  </footer>
+</body>
+</html>
