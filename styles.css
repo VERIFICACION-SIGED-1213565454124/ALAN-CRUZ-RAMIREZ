@@ -22,7 +22,6 @@ body {
 
 .header-container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     max-width: 1000px;
     margin: 0 auto;
@@ -37,11 +36,31 @@ body {
     font-size: 14px;
     font-weight: bold;
     line-height: 1.2;
-    margin-right: auto;
-    padding-left: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
 }
 
-.siged {
+.sep-logo {
+    height: 40px;
+    margin-left: auto;
+}
+
+.siged-bar {
+    background-color: #004d99;
+    color: white;
+    padding: 5px 0;
+}
+
+.siged-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.siged-text {
     font-size: 18px;
     font-weight: bold;
     margin-right: 20px;
@@ -65,13 +84,14 @@ body {
 /* Main Content */
 .main-content {
     background-color: #fff;
+    border-top: 5px solid #1480C6;
 }
 
-.banner {
-    background-image: url('https://www.gob.mx/cms/uploads/image/file/286015/BANNER_SEP_Mantenimiento_Portal.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 150px;
+.document-section {
+    background-color: #e6f2ff;
+    border: 1px solid #bfdfff;
+    padding: 20px;
+    margin-top: 20px;
 }
 
 .page-title {
@@ -79,13 +99,13 @@ body {
     color: #002244;
     border-bottom: 2px solid #002244;
     padding-bottom: 10px;
-    margin-top: 20px;
+    margin-top: 0;
 }
 
 .breadcrumb {
     font-size: 12px;
     color: #666;
-    margin-top: -10px;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 
@@ -98,9 +118,8 @@ body {
 }
 
 .content-box {
-    border: 1px solid #ddd;
-    padding: 20px;
     background-color: #f9f9f9;
+    padding: 20px;
 }
 
 .subtitle {
@@ -112,7 +131,7 @@ body {
 
 .details-grid {
     display: grid;
-    grid-template-columns: 150px 1fr;
+    grid-template-columns: 200px 1fr;
     gap: 20px;
     align-items: flex-start;
 }
@@ -121,14 +140,31 @@ body {
     text-align: center;
 }
 
+.certificate-frame {
+    position: relative;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.details-tab {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #d9534f;
+    color: white;
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
 .certificate-image {
     width: 100%;
     height: auto;
-    border: 1px solid #ccc;
 }
 
 .info-section .detail-item {
     margin-bottom: 10px;
+    line-height: 1.5;
 }
 
 .info-section .label {
@@ -144,45 +180,96 @@ body {
 .disclaimer {
     font-size: 14px;
     color: #666;
-    background-color: #eef4f9;
-    border-left: 5px solid #004d99;
+    background-color: #e6f2ff;
+    border-left: 5px solid #1480C6;
     padding: 15px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /* Footer */
 .footer {
     background-color: #002244;
     color: white;
-    padding: 20px;
-    text-align: center;
-    font-size: 12px;
+    padding: 20px 0;
 }
 
 .footer-container {
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
-    flex-wrap: wrap;
 }
 
-.footer-links, .footer-legal, .footer-social {
+.footer-section {
+    margin-bottom: 20px;
+}
+
+.footer-sep-gob {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.footer-logo {
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.footer-sep-logo {
+    height: 40px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.link-column {
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
-    flex: 1;
-    min-width: 150px;
+    margin-right: 20px;
 }
 
-.footer-links a, .footer-legal a, .footer-social a {
+.link-column h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.link-column a {
     color: white;
     text-decoration: none;
+    font-size: 12px;
     margin-bottom: 5px;
-    text-align: left;
 }
 
-.footer-links a:hover, .footer-legal a:hover, .footer-social a:hover {
+.link-column a:hover {
     text-decoration: underline;
+}
+
+/* Media Queries para responsividad */
+@media (max-width: 768px) {
+    .details-grid {
+        grid-template-columns: 1fr;
+    }
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+    .link-column {
+        align-items: center;
+        margin-bottom: 20px;
+    }
 }
