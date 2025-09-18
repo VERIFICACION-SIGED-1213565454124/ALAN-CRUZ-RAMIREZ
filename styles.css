@@ -15,7 +15,7 @@ body {
 
 /* Header */
 .header {
-    background-color: #002244; /* Azul marino */
+    background-color: #002244; /* Este color se mantiene por el logo del Gobierno de México */
     color: white;
     padding: 10px 0;
 }
@@ -46,7 +46,7 @@ body {
 }
 
 .siged-bar {
-    background-color: #004d99; /* Azul medio */
+    background-color: #1a5a1f; /* Verde oscuro del diseño */
     color: white;
     padding: 5px 0;
 }
@@ -84,7 +84,7 @@ body {
 /* Main Content */
 .main-content {
     background-color: #fff;
-    border-top: 5px solid #66bb6a; /* Verde brillante */
+    border-top: 5px solid #2e7d32; /* Verde medio */
 }
 
 .document-section {
@@ -189,7 +189,7 @@ body {
 
 /* Footer */
 .footer {
-    background-color: #002244; /* Azul marino */
+    background-color: #002244; /* Este color se mantiene por el logo del Gobierno de México */
     color: white;
     padding: 20px 0;
 }
