@@ -15,7 +15,7 @@ body {
 
 /* Header */
 .header {
-    background-color: #002244;
+    background-color: #002244; /* Azul marino */
     color: white;
     padding: 10px 0;
 }
@@ -46,7 +46,7 @@ body {
 }
 
 .siged-bar {
-    background-color: #004d99;
+    background-color: #004d99; /* Azul medio */
     color: white;
     padding: 5px 0;
 }
@@ -84,20 +84,20 @@ body {
 /* Main Content */
 .main-content {
     background-color: #fff;
-    border-top: 5px solid #1480C6;
+    border-top: 5px solid #1480C6; /* Azul brillante */
 }
 
 .document-section {
-    background-color: #e6f2ff;
-    border: 1px solid #bfdfff;
+    background-color: #e9f5e9; /* Verde claro */
+    border: 1px solid #c8e6c9; /* Borde verde más oscuro */
     padding: 20px;
     margin-top: 20px;
 }
 
 .page-title {
     font-size: 28px;
-    color: #002244;
-    border-bottom: 2px solid #002244;
+    color: #1b5e20; /* Verde oscuro */
+    border-bottom: 2px solid #1b5e20; /* Borde verde oscuro */
     padding-bottom: 10px;
     margin-top: 0;
 }
@@ -111,7 +111,7 @@ body {
 
 .section-title {
     font-size: 22px;
-    color: #004d99;
+    color: #1b5e20; /* Verde oscuro */
     font-weight: normal;
     margin-top: 30px;
     margin-bottom: 15px;
@@ -151,7 +151,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #d9534f;
+    background-color: #1b5e20; /* Verde oscuro */
     color: white;
     font-size: 12px;
     padding: 5px 10px;
@@ -180,8 +180,8 @@ body {
 .disclaimer {
     font-size: 14px;
     color: #666;
-    background-color: #e6f2ff;
-    border-left: 5px solid #1480C6;
+    background-color: #e9f5e9; /* Verde claro */
+    border-left: 5px solid #1b5e20; /* Borde verde oscuro */
     padding: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -189,7 +189,7 @@ body {
 
 /* Footer */
 .footer {
-    background-color: #002244;
+    background-color: #002244; /* Azul marino */
     color: white;
     padding: 20px 0;
 }
