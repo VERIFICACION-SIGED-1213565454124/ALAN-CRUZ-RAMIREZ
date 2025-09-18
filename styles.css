@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f2f5; /* Fondo general de la página */
+    background-color: #f0f2f5;
     color: #333;
 }
 
@@ -15,7 +15,7 @@ body {
 
 /* Header */
 .header {
-    background-color: #002244; /* Azul marino del logo GOBIERNO DE MÉXICO */
+    background-color: #0d47a1; /* Azul oscuro */
     color: white;
     padding: 10px 0;
 }
@@ -46,7 +46,7 @@ body {
 }
 
 .siged-bar {
-    background-color: #008f7d; /* Azul verdoso / turquesa oscuro de la franja SIGED */
+    background-color: #0d47a1; /* Mismo azul oscuro */
     color: white;
     padding: 5px 0;
 }
@@ -84,22 +84,21 @@ body {
 /* Main Content */
 .main-content {
     background-color: #fff;
-    /* Franja azul/verde agua en la parte superior del contenido */
-    border-top: 5px solid #00c9b1; 
+    border-top: 5px solid #01579b; /* Azul de borde superior */
 }
 
 /* Sección principal del documento */
 .document-section {
-    background-color: #e6f7f6; /* Fondo verde muy claro/blanquecino con un toque de azul agua */
-    border: 1px solid #b3e0dc; /* Borde sutil verde/azul claro */
+    background-color: #e3f2fd; /* Fondo azul muy claro */
+    border: 1px solid #bbdefb; /* Borde azul claro */
     padding: 20px;
     margin-top: 20px;
 }
 
 .page-title {
     font-size: 28px;
-    color: #1a5a1f; /* Verde oscuro para los títulos */
-    border-bottom: 2px solid #1a5a1f; /* Borde inferior verde oscuro */
+    color: #0d47a1; /* Azul oscuro para títulos */
+    border-bottom: 2px solid #0d47a1; /* Borde inferior azul oscuro */
     padding-bottom: 10px;
     margin-top: 0;
 }
@@ -113,20 +112,20 @@ body {
 
 .section-title {
     font-size: 22px;
-    color: #1a5a1f; /* Verde oscuro para subtítulos de sección */
+    color: #0d47a1; /* Azul oscuro para subtítulos */
     font-weight: normal;
     margin-top: 30px;
     margin-bottom: 15px;
 }
 
 .content-box {
-    background-color: #f9f9f9; /* Fondo de la caja de detalles, casi blanco */
+    background-color: #f9f9f9;
     padding: 20px;
 }
 
 .subtitle {
     font-size: 18px;
-    color: #000;
+    color: #0d47a1; /* Azul oscuro */
     margin-top: 0;
     margin-bottom: 20px;
 }
@@ -182,96 +181,4 @@ body {
 .disclaimer {
     font-size: 14px;
     color: #666;
-    background-color: #e6f7f6; /* Fondo verde muy claro/blanquecino para el aviso */
-    border-left: 5px solid #1a5a1f; /* Borde izquierdo verde oscuro */
-    padding: 15px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-/* Footer */
-.footer {
-    background-color: #002244; /* Azul marino del footer */
-    color: white;
-    padding: 20px 0;
-}
-
-.footer-container {
-    max-width: 1000px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-.footer-section {
-    margin-bottom: 20px;
-}
-
-.footer-sep-gob {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-}
-
-.footer-logo {
-    height: 60px;
-    margin-bottom: 10px;
-}
-
-.footer-sep-logo {
-    height: 40px;
-}
-
-.footer-links {
-    display: flex;
-    justify-content: space-between;
-    flex-grow: 1;
-    margin-left: 20px;
-}
-
-.link-column {
-    display: flex;
-    flex-direction: column;
-    margin-right: 20px;
-}
-
-.link-column h4 {
-    margin-top: 0;
-    margin-bottom: 10px;
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.link-column a {
-    color: white;
-    text-decoration: none;
-    font-size: 12px;
-    margin-bottom: 5px;
-}
-
-.link-column a:hover {
-    text-decoration: underline;
-}
-
-/* Media Queries para responsividad */
-@media (max-width: 768px) {
-    .details-grid {
-        grid-template-columns: 1fr;
-    }
-    .footer-container {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    .footer-links {
-        flex-direction: column;
-        align-items: center;
-        margin-left: 0;
-    }
-    .link-column {
-        align-items: center;
-        margin-bottom: 20px;
-    }
-}
+    background-color: #e3f2fd; /* Fondo
