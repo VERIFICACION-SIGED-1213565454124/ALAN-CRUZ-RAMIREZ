@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f2f5;
+    background-color: #f0f2f5; /* Fondo general de la página */
     color: #333;
 }
 
@@ -15,7 +15,7 @@ body {
 
 /* Header */
 .header {
-    background-color: #002244; /* Este color se mantiene por el logo del Gobierno de México */
+    background-color: #002244; /* Azul marino del logo GOBIERNO DE MÉXICO */
     color: white;
     padding: 10px 0;
 }
@@ -46,7 +46,7 @@ body {
 }
 
 .siged-bar {
-    background-color: #1a5a1f; /* Verde oscuro del diseño */
+    background-color: #008f7d; /* Azul verdoso / turquesa oscuro de la franja SIGED */
     color: white;
     padding: 5px 0;
 }
@@ -84,20 +84,22 @@ body {
 /* Main Content */
 .main-content {
     background-color: #fff;
-    border-top: 5px solid #2e7d32; /* Verde medio */
+    /* Franja azul/verde agua en la parte superior del contenido */
+    border-top: 5px solid #00c9b1; 
 }
 
+/* Sección principal del documento */
 .document-section {
-    background-color: #e8f5e9; /* Verde muy claro */
-    border: 1px solid #c8e6c9; /* Borde verde claro */
+    background-color: #e6f7f6; /* Fondo verde muy claro/blanquecino con un toque de azul agua */
+    border: 1px solid #b3e0dc; /* Borde sutil verde/azul claro */
     padding: 20px;
     margin-top: 20px;
 }
 
 .page-title {
     font-size: 28px;
-    color: #1b5e20; /* Verde oscuro */
-    border-bottom: 2px solid #1b5e20; /* Borde verde oscuro */
+    color: #1a5a1f; /* Verde oscuro para los títulos */
+    border-bottom: 2px solid #1a5a1f; /* Borde inferior verde oscuro */
     padding-bottom: 10px;
     margin-top: 0;
 }
@@ -111,14 +113,14 @@ body {
 
 .section-title {
     font-size: 22px;
-    color: #1b5e20; /* Verde oscuro */
+    color: #1a5a1f; /* Verde oscuro para subtítulos de sección */
     font-weight: normal;
     margin-top: 30px;
     margin-bottom: 15px;
 }
 
 .content-box {
-    background-color: #f9f9f9;
+    background-color: #f9f9f9; /* Fondo de la caja de detalles, casi blanco */
     padding: 20px;
 }
 
@@ -151,7 +153,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #1b5e20; /* Verde oscuro */
+    background-color: #d9534f; /* Rojo del tab "Detalles" */
     color: white;
     font-size: 12px;
     padding: 5px 10px;
@@ -180,8 +182,8 @@ body {
 .disclaimer {
     font-size: 14px;
     color: #666;
-    background-color: #e8f5e9; /* Verde muy claro */
-    border-left: 5px solid #1b5e20; /* Borde verde oscuro */
+    background-color: #e6f7f6; /* Fondo verde muy claro/blanquecino para el aviso */
+    border-left: 5px solid #1a5a1f; /* Borde izquierdo verde oscuro */
     padding: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -189,7 +191,7 @@ body {
 
 /* Footer */
 .footer {
-    background-color: #002244; /* Este color se mantiene por el logo del Gobierno de México */
+    background-color: #002244; /* Azul marino del footer */
     color: white;
     padding: 20px 0;
 }
